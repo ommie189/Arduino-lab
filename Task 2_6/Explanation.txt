@@ -1,0 +1,7 @@
+// pin 9 and 10 are the PWN Pins that cannot be used on the Uno if we are using the servo library
+
+The library disables analogWrite() (PWM) functionality even if there is no servo on those pins.
+
+This implies to all boards other than the Mega Board(arduino)
+
+The Source: https://www.arduino.cc/en/Reference/Servo

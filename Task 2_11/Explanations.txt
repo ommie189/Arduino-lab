@@ -1,0 +1,8 @@
+
+// When the backgroound is at setup function'
+//its going to run only one time
+
+//at loop
+//here the ellipse is going to be created every time 
+//without removing the previous one because the background fill
+//isn`t called.
